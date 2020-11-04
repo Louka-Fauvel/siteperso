@@ -24,8 +24,8 @@
 </div>
 
 <div class="fa">
-  <i class="fas fa-envelope"></i>
-  <br><i class="fab fa-facebook-square"></i>
+  <a href="https://slamwiki2.kobject.net/ateliers/missions/siteperso"><i class="fas fa-envelope"></i></a>
+  <br><a href=""<i class="fab fa-facebook-square"></i></a>
 </div>
 
 <div class="image_perso_page">
