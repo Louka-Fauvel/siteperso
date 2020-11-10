@@ -3,94 +3,40 @@ body{
 font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    border-bottom: 1px solid black;
+.body_Compétences {
+  background-color: #b3b3b3;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.titre {
-  display: inline-block;
-  font-size: 20px;
-  padding-right: 425px;
-}
-
-.Menu {
-  text-decoration: none;
-}
-
-.crumbs ol {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
-.crumb {
-    display: inline-block;
-    font-size: 15px;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 10px;
-}
-
-.Compétences {
-  font-size: 50px;
-  text-align: center;
-}
-
-table {
+.table_page {
   margin-left: auto;
   margin-right: auto;
 }
 
-.progression {
-  display: inline-block;
-  font-size: 30px;
-  padding: 0 30px;
-}
-
-.tableau_page {
+.tableau_page_Compétences {
   padding-top: 30px;
   padding-right: 30px;
   padding-left: 50px;
 }
 
-.tableau_page2 {
+.tableau_page2_Compétences {
   padding-right: 30px;
   font-size: 30px;
 }
 
-.tableau_page3 {
+#file {
+  background-color: #31ac1f;
+}
+
+.tableau_page3_Compétences {
   padding-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
   vertical-align: top;
 }
 
-.tableau_page4 {
+.tableau_page4_Compétences {
   font-size: 24px;
   padding-top: 60px;
-}
-
-.fa {
-  border-radius: 10px;
-  background-color: black;
-  color: white;
-  position: absolute;
-  top: 50%; left: 97%;
-  transform: translate(-50%, -50%);
-  padding: 15 15px;
-  font-size: 35px;
-}
-
-.flèche {
-  color: black;
-  position: absolute;
-  top: 90%; left: 97%;
-  transform: translate(-50%, -50%);
-  padding: 15 15px;
-  font-size: 70px;
 }

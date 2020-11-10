@@ -3,37 +3,10 @@ body{
 font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    border-bottom: 1px solid black;
-}
-
-.titre {
-  display: inline-block;
-  font-size: 20px;
-  padding-right: 425px;
-}
-
-.Menu {
-  text-decoration: none;
-}
-
-.crumbs ol {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
-.crumb {
-    display: inline-block;
-    font-size: 15px;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 10px;
+.body_A_propos {
+  background-color: #2d5d26;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .titre_page {
@@ -42,13 +15,13 @@ nav {
   text-align: center;
 }
 
-.accroche_page {
+.accroche_page_A_propos {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
 
-.texte_page {
+.texte_page_A_propos {
   font-size: 16px;
   font-weight: normal;
   width: 25%;
@@ -57,29 +30,20 @@ nav {
   text-justify: auto;
 }
 
-.image_page{
+.image_page_A_propos {
   display: block;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.fa {
-  border-radius: 10px;
-  background-color: black;
-  position: absolute;
-  top: 50%; left: 97%;
-  transform: translate(-50%, -50%);
-  padding: 15 15px;
-  font-size: 35px;
-  color: white;
-}
-
 .flèche {
   color: black;
-  position: absolute;
-  top: 90%; left: 97%;
-  transform: translate(-50%, -50%);
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
   padding: 15 15px;
-  font-size: 40px;
+  font-size: 70px;
 }

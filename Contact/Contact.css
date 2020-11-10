@@ -3,83 +3,29 @@ body{
 font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    border-bottom: 1px solid black;
+.body_Contact {
+  padding-top: 100px;
 }
 
-.titre {
-  display: inline-block;
-  font-size: 20px;
-  padding-right: 425px;
-}
-
-.Menu {
-  text-decoration: none;
-}
-
-.crumbs ol {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
-.crumb {
-    display: inline-block;
-    font-size: 15px;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 10px;
-}
-
-.titre_page {
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.image_page{
+.image_page_Contact {
   display: block;
-  position: absolute;
-  top: 50%; left: 25%;
-  transform: translate(-50%, -50%);
-}
-
-.flèche {
-  color: black;
-  position: absolute;
-  top: 80%; left: 97%;
-  transform: translate(-50%, -50%);
-  padding: 15 15px;
-  font-size: 70px;
+  margin-right: 100px;
 }
 
 footer {
-  position: absolute;
-  bottom: -8%; left: 50%;
-  transform: translate(-50%, -50%);
-  width:100%;
+  display: block;
+  margin-bottom: 50px;
 }
 
-.fa {
+.fa_footer {
   padding: 15 15px;
   font-size: 35px;
 }
 
-.données {
-  margin-left: 50%;
-  margin-right: auto;
-}
-
-.sociaux {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .pied_page {
   text-align: center;
+}
+
+.fa_icon_footer {
+  color: black;
 }

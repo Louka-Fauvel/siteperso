@@ -1,25 +1,11 @@
+/*Page_d_accueil*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
 font-family: 'Roboto', sans-serif;
-width: 100%;
-left: 0;
-margin: 0;
-}
-
-.body_Page_d_accueil {
-  background-color: #b3b3b3;
-  width: 100%;
-  left: 0;
-  padding-bottom: 100px;
 }
 
 nav {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  border-bottom: 0px solid black;
-  box-shadow: 8px 0px 12px black;
-  background-color: #333;
+  border-bottom: 1px solid black;
 }
 
 .titre {
@@ -30,12 +16,6 @@ nav {
 
 .Menu {
   text-decoration: none;
-  color: #31ac1f;
-}
-
-.Menu:hover {
-  text-decoration: none;
-  color: #d64a16;
 }
 
 .crumbs ol {
@@ -63,14 +43,16 @@ nav {
   background-image: url(../image/Louka_Fauvel.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 857px;
-    height: 900px;
+  background-size: 900px
+  width: 857px;
+    height: 1150px;
 }
 
-.image_page_Page_d_accueil{
+.image_page_Page_d_accueil {
   display: block;
-  padding-left: 700px;
-  height: 15%;
+  position: absolute;
+  top: 50%; left: 20%;
+  transform: translate(-50%, -50%);
 }
 
 .prenom{
@@ -99,25 +81,56 @@ nav {
   border-radius: 10px;
   background-color: black;
   color: white;
-  position: fixed;
+  position: absolute;
   top: 50%; left: 97%;
   transform: translate(-50%, -50%);
   padding: 15 15px;
   font-size: 35px;
-  text-align: center;
-}
-
-.fa_icon {
-  color: white;
 }
 
 .flèche_Page_d_accueil {
   color: black;
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 250px;
+  position: absolute;
+  top: 90%; left: 50%;
+  transform: translate(-50%, -50%);
   padding: 15 15px;
   font-size: 70px;
+}
+
+/*A_propos*/
+.titre_page {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.accroche_page_A_propos {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texte_page_A_propos {
+  font-size: 16px;
+  font-weight: normal;
+  width: 25%;
+  margin: 50px auto;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.image_page_A_propos{
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flèche {
+  color: black;
+  position: absolute;
+  top: 90%; left: 97%;
+  transform: translate(-50%, -50%);
+  padding: 15 15px;
+  font-size: 40px;
 }
