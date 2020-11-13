@@ -104,11 +104,33 @@ nav {
   transform: translate(-50%, -50%);
   padding: 15 15px;
   font-size: 35px;
+  border-bottom: 0px solid black;
+  box-shadow: 8px 0px 12px black;
   text-align: center;
 }
 
 .fa_icon {
   color: white;
+}
+
+.fa_icon:hover {
+  color: #d64a16;
+}
+
+.fa_icon_facebook {
+  color: white;
+}
+
+.fa_icon_facebook:hover {
+  color: #4867aa;
+}
+
+.fa_icon_github {
+  color: white;
+}
+
+.fa_icon_github:hover {
+  color: #24292e;
 }
 
 .flèche_Page_d_accueil {
@@ -120,4 +142,8 @@ nav {
   margin-top: 250px;
   padding: 15 15px;
   font-size: 70px;
+}
+
+.flèche_Page_d_accueil:hover {
+  color: #d64a16;
 }

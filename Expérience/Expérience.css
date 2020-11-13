@@ -26,6 +26,11 @@ font-family: 'Roboto', sans-serif;
   color: white;
 }
 
+.CV_page:hover {
+  text-decoration: none;
+  color: #d64a16;
+}
+
 .CV_page2 {
   text-align: center;
   padding-top: 100px;

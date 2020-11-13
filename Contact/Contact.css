@@ -14,7 +14,8 @@ font-family: 'Roboto', sans-serif;
 
 footer {
   display: block;
-  margin-bottom: 50px;
+  padding-bottom: 1px;
+  background-color: #b3b3b3;
 }
 
 .fa_footer {
@@ -24,6 +25,9 @@ footer {
 
 .pied_page {
   text-align: center;
+  background-color: #2d5d26;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .fa_icon_footer {
