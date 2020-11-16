@@ -1,4 +1,4 @@
-#Bienvenue sur mon site personnel !#
+#Bienvenue sur mon site personnel !
 
 **Objectif** : Créer un site personnel afin de promouvoir nos compétences dans le cadre professionnel.
 
