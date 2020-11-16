@@ -1,4 +1,4 @@
-#**Bienvenue sur mon site personnel !**#
+#Bienvenue sur mon site personnel !#
 
 **Objectif** : Créer un site personnel afin de promouvoir nos compétences dans le cadre professionnel.
 
@@ -8,9 +8,9 @@
 
 **Screenshots** :
 
-(image/Capture_Home_page.PNG)
+![Capture_Home_page](image/Capture_Home_page.PNG)
 
-(image/Capture_Contact.PNG)
+![Capture_Contact](image/Capture_Contact.PNG)
 
 **A venir** : Au fur et à mesure de mes expériences, je serai amené à compléter mes informations personnnelles et à intégrer un maximum de données en PHP.
 
