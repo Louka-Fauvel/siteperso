@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Page d'accueil</title>
+    <title>Site-personnel-lf</title>
     <link rel="stylesheet" href="Page_d_accueil/Page_d_accueil.css">
     <link rel="stylesheet" href="A_propos/A_propos.css">
     <link rel="stylesheet" href="Compétences/Compétences.css">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="Formation/Formation.css">
     <link rel="stylesheet" href="Contact/Contact.css">
     <link rel="stylesheet" href="fa/css/all.css">
+    <link rel="stylesheet" href="Progress_bar.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -39,11 +40,18 @@
 
 <div class="image_perso_page">
 
-<ol>
-  <li class="prenom">LOUKA <br>FAUVEL</b></br></li>
-  <li class="accroche_page_Page_d_accueil">Sérieux et collectif</li>
-  <img class="image_page_Page_d_accueil" src="image/Logo_perso.png">
-</ol>
+<table class="page_droite_Page_d_accueil">
+<tr>
+  <td class="prenom">LOUKA <br>FAUVEL</b></br></td>
+</tr>
+<tr>
+  <td class="accroche_page_Page_d_accueil">Sérieux et collectif</td>
+</tr>
+<tr>
+  <td><img class="image_page_Page_d_accueil" src="image/Logo_perso.png"><td>
+</tr>
+
+</table>
 
 <div>
 <a href="#A_propos" class="flèche_Page_d_accueil"><i class="fas fa-angle-down"></i></a>

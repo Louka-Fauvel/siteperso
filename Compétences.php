@@ -19,15 +19,24 @@
   </tr>
 
   <tr class="tableau_page_Compétences">
-    <td class="tableau_page2_Compétences"><progress id="file" max="100" value="100"> 100% </progress></td>
-    <td class="tableau_page2_Compétences"><progress id="file" max="100" value="60"> 60% </progress></td>
-    <td class="tableau_page2_Compétences"><progress id="file" max="100" value="25"> 25% </progress></td>
+    <td class="tableau_page2_Compétences"><div class="w3-light-grey w3-round-xlarge" style="width:300px"><div class="w3-container w3-padding w3-green w3-round-xlarge" style="width:100%"></div></div></td>
+    <td class="tableau_page2_Compétences"><div class="w3-light-grey w3-round-xlarge" style="width:300px"><div class="w3-container w3-padding w3-green w3-round-xlarge" style="width:60%"></div></div></td>
+    <td class="tableau_page2_Compétences"><div class="w3-light-grey w3-round-xlarge" style="width:300px"><div class="w3-container w3-padding w3-green w3-round-xlarge" style="width:25%"></div></div></td>
   </tr>
 
   <tr>
-    <td class="tableau_page3_Compétences">&bull; Adobe Photoshop <br>&bull; Adobe Premiere</td>
-    <td class="tableau_page3_Compétences">&bull; Labview <br>&bull; Arduino <br>&bull; Html/css <br>&bull; PacketTracer</td>
-    <td class="tableau_page3_Compétences">&bull; php <br>&bull; Apache <br>&bull; Python</td>
+    <td class="tableau_page3_Compétences">
+      <li>Adobe Photoshop</li>
+      <li>Adobe Premiere</li></td>
+    <td class="tableau_page3_Compétences">
+      <li>Labview</li>
+      <li>Arduino</li>
+      <li>Html/css</li>
+      <li>PacketTracer</li></td>
+    <td class="tableau_page3_Compétences">
+      <li>php</li>
+      <li>Apache</li>
+      <li>Python</li></td>
   </tr>
 
 </table>
@@ -47,15 +56,15 @@
   </tr>
 
   <tr class="tableau_page_Compétences">
-    <td class="tableau_page2_Compétences"><progress id="file" max="100" value="100"> 100% </progress></td>
-    <td class="tableau_page2_Compétences"><progress id="file" max="100" value="60"> 60% </progress></td>
-    <td class="tableau_page2_Compétences"><progress id="file" max="100" value="25"> 25% </progress></td>
+    <td class="tableau_page2_Compétences"><div class="w3-light-grey w3-round-xlarge" style="width:300px"><div class="w3-container w3-padding w3-green w3-round-xlarge" style="width:100%"></div></div></td>
+    <td class="tableau_page2_Compétences"><div class="w3-light-grey w3-round-xlarge" style="width:300px"><div class="w3-container w3-padding w3-green w3-round-xlarge" style="width:60%"></div></div></td>
+    <td class="tableau_page2_Compétences"><div class="w3-light-grey w3-round-xlarge" style="width:300px"><div class="w3-container w3-padding w3-green w3-round-xlarge" style="width:25%"></div></div></td>
   </tr>
 
   <tr class="tableau_page_Compétences">
     <td class="tableau_page3_Compétences"></td>
-    <td class="tableau_page3_Compétences">&bull; Anglais</td>
-    <td class="tableau_page3_Compétences">&bull; Espagnol</td>
+    <td class="tableau_page3_Compétences"><li>Anglais</li></td>
+    <td class="tableau_page3_Compétences"><li>Espagnol</li></td>
   </tr>
 
 </table>

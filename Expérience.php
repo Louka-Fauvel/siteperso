@@ -3,7 +3,7 @@
 <div class="body_Expérience">
 
 <p class="titre_page">Expérience</p>
-
+<!--
 <table class="table_page">
   <tr class="tableau_page_Expérience">
 
@@ -35,6 +35,31 @@
     <td class="tableau_page_Expérience">Observer le travail d'un graphiste.
       <br>Utiliser les outils du graphiste pour créer des images.
       <p>Outils : Adobe Photoshop</p></td>
+
+  </tr>
+</table>
+-->
+
+<table class="table_page">
+  <tr class="tableau_page_Expérience">
+
+    <td class="tableau_page_Expérience"><?php echo $experiences[0]['image']; ?></td>
+    <td class="tableau_page_Expérience"><?php echo $experiences[0]['contexte']; ?></td>
+    <td class="tableau_page_Expérience"><?php echo $experiences[0]['texte']; ?></td>
+
+  </tr>
+  <tr class="tableau_page_Expérience">
+
+    <td class="tableau_page_Expérience"><?php echo $experiences[1]['image']; ?></td>
+    <td class="tableau_page_Expérience"><?php echo $experiences[1]['contexte']; ?></td>
+    <td class="tableau_page_Expérience"><?php echo $experiences[1]['texte']; ?></td>
+
+  </tr>
+  <tr class="tableau_page_Expérience">
+
+    <td class="tableau_page_Expérience"><?php echo $experiences[2]['image']; ?></td>
+    <td class="tableau_page_Expérience"><?php echo $experiences[2]['contexte']; ?></td>
+    <td class="tableau_page_Expérience"><?php echo $experiences[2]['texte']; ?></td>
 
   </tr>
 </table>
