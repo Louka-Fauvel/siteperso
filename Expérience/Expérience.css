@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-font-family: 'Roboto', sans-serif;
-}
+
 
 .body_Expérience {
   background-color: #2d5d26;
@@ -14,7 +11,7 @@ font-family: 'Roboto', sans-serif;
   padding-right: 30px;
 }
 
-.image_page_Expérience {
+.image_page_table {
   width: 200px;
 }
 

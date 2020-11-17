@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-font-family: 'Roboto', sans-serif;
-}
+
 
 .body_Formation {
   background-color: #b3b3b3;
@@ -12,8 +9,4 @@ font-family: 'Roboto', sans-serif;
 .tableau_page_Formation td {
   padding-top: 50px;
   padding-right: 30px;
-}
-
-.image_page_Formation {
-  width: 200px;
 }

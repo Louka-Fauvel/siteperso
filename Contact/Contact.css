@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-font-family: 'Roboto', sans-serif;
-}
+
 
 .body_Contact {
   padding-top: 100px;
+  width: 100%;
 }
 
 .image_page_Contact {
   display: block;
-  margin-right: 100px;
+  width: 80%;
+  margin-left: 5%;
 }
 
 footer {
