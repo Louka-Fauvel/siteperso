@@ -1,0 +1,13 @@
+
+
+.body_Formation {
+  background-color: #b3b3b3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tableau_page_Formation td {
+  padding-top: 50px;
+  padding-right: 30px;
+  font-weight: normal;
+}

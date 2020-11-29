@@ -1,0 +1,41 @@
+
+
+.body_Compétences {
+  background-color: #b3b3b3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.table_page {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tableau_page_Compétences {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 50px;
+  font-weight: normal;
+}
+
+.tableau_page2_Compétences {
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+#file {
+  background-color: #31ac1f;
+}
+
+.tableau_page3_Compétences {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+.tableau_page4_Compétences {
+  font-size: 24px;
+  padding-top: 60px;
+}

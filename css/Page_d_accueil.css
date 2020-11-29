@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+font-family: 'Roboto', sans-serif;
+width: 100%;
+left: 0;
+margin: 0;
+}
+
+.body_Page_d_accueil {
+  background-color: #b3b3b3;
+  width: 100%;
+  left: 0;
+  padding-bottom: 100px;
+}
+
+nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  border-bottom: 0px solid black;
+  box-shadow: 8px 0px 12px black;
+  background-color: #333;
+}
+
+.titre {
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 20%;
+}
+
+.Menu {
+  text-decoration: none;
+  color: #31ac1f;
+}
+
+.Menu:hover {
+  text-decoration: none;
+  color: #d64a16;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.crumb {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '';
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.image_perso_page {
+  background-image: url(../image/Louka_Fauvel.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 45%;
+}
+
+.page_droite_Page_d_accueil {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15%;
+  padding-top: 200px;
+}
+
+.image_page_Page_d_accueil{
+  display: block;
+  height: 108px;
+}
+
+.prenom{
+  font-size: 50px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.prenom ol {
+  list-style-type: none;
+}
+
+.accroche_page_Page_d_accueil {
+  font-size: 24px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.accroche_page_Page_d_accueil ol {
+  list-style-type: none;
+}
+
+.fa {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 50%; left: 97%;
+  transform: translate(-50%, -50%);
+  padding: 15px 15px;
+  font-size: 35px;
+  border-bottom: 0px solid black;
+  box-shadow: 8px 0px 12px black;
+  text-align: center;
+}
+
+.fa_icon {
+  color: white;
+}
+
+.fa_icon:hover {
+  color: #d64a16;
+}
+
+.fa_icon_facebook {
+  color: white;
+}
+
+.fa_icon_facebook:hover {
+  color: #4867aa;
+}
+
+.fa_icon_github {
+  color: white;
+}
+
+.fa_icon_github:hover {
+  color: #24292e;
+}
+
+.flèche_Page_d_accueil {
+  color: black;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  padding: 15px 15px;
+  font-size: 70px;
+}
+
+.flèche_Page_d_accueil:hover {
+  color: #d64a16;
+}

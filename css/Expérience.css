@@ -1,0 +1,35 @@
+
+
+.body_Expérience {
+  background-color: #2d5d26;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tableau_page_Expérience td {
+  padding-top: 50px;
+  padding-right: 30px;
+  font-weight: normal;
+}
+
+.image_page_table {
+  width: 200px;
+}
+
+.CV_page {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.CV_page:hover {
+  text-decoration: none;
+  color: #d64a16;
+}
+
+.CV_page2 {
+  text-align: center;
+  padding-top: 100px;
+}
